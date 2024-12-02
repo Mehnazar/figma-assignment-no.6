@@ -2,13 +2,6 @@ import React from "react";
 import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
 import Image from "next/image";
 
-// Update your image imports to reflect the images being inside public/images/
-import pic1 from '../public/man1.png';
-import pic2 from '../public/women2.png';
-import pic3 from '../public/man2.png';
-import pic4 from '../public/man3.png';
-import pic5 from '../public/man4.png';
-import pic6 from '../public/women2.png';
 
 const OurTeam: React.FC = () => {
   const teamMembers = [
@@ -20,7 +13,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/johndoe",
         website: "https://jamesnduku.com",
       },
-      image: pic1,
+      image: "/images/team1.svg",
     },
     {
       name: "Joseph Munyambu",
@@ -30,7 +23,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/janesmith",
         website: "https://josephmunyambu.com",
       },
-      image: pic2,
+      image: "/images/team2.svg",
     },
     {
       name: "Joseph Ngumbau",
@@ -40,7 +33,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/alexjohnson",
         website: "https://josephngumbau.com",
       },
-      image: pic3,
+      image: "/images/team3.svg",
     },
     {
       name: "Erick Kipkemboi",
@@ -50,7 +43,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/mariagarcia",
         website: "https://erickkipkemboi.com",
       },
-      image: pic4,
+      image:"/images/team4.svg",
     },
     {
       name: "Stephen Kerubo",
@@ -60,7 +53,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/davidlee",
         website: "https://stephenkerubo.com",
       },
-      image: pic5,
+      image:"/images/team5.svg",
     },
     {
       name: "John Leboo",
@@ -70,7 +63,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/saradavis",
         website: "https://johnleboo.com",
       },
-      image: pic6,
+      image: "/images/team6.svg",
     },
   ];
 

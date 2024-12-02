@@ -1,26 +1,24 @@
 import Image from "next/image";
-import pic3 from "../public/man3.png";
-import pic1 from "../public/man4.png";
-import pic6 from "../public/women2.png";
+
 
 const CustomerTestimonial = () => {
   const testimonials = [
     {
-      image: pic3,
-      name: "Joseph Ngumbau",
+      image:"/images/team3.svg",
+      name: "James Nduku",
       role: "Software Developer",
       testimonial:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
     },
     {
-      image: pic1,
+      image:"/images/team1.svg",
       name: "Erick Kipkemboi",
       role: "Scrum Master",
       testimonial:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
     },
     {
-      image: pic6,
+      image:"/images/team6.svg",
       name: "Stephen Kerubo",
       role: "UI/UX Designer",
       testimonial:

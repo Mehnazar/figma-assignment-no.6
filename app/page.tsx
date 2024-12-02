@@ -4,6 +4,9 @@ import HeroSection from "@/components/Hero";
 import CourseCategory from "@/components/CourseCategory";
 import Achievement from "@/components/Achievements";
 import Courses from "@/components/Courses";
+import OurTeam from "@/components/OurTeam";
+import CustomerTestimonial from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 export default function main(){
   return(
     <main>
@@ -13,6 +16,9 @@ export default function main(){
     <CourseCategory/>
     <Achievement/>
     <Courses/>
+    <OurTeam/>
+    <CustomerTestimonial/>
+    <Footer/>
 
 
 

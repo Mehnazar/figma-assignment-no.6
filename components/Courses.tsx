@@ -1,11 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import Course1 from "./images/course1.svg"
-// import Course2 from "/images/course2.svg"
-// import Course3 from "/images/course3.svg";
-// import Course4 from "/images/course4.svg";
-// import Course5 from "/images/course5.svg";
-// import Course6 from "/images/course6.svg";
 
 
 const categories = [
