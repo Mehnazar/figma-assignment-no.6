@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 
 const OurTeam: React.FC = () => {

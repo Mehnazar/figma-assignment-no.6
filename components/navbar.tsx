@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { FaBars, FaTimes, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import frame from "../public/frame logo.png";
 
