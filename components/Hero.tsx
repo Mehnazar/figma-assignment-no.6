@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import placeholderImage from '/images/image2.svg';
 
 
 const HeroSection: React.FC = () => {
@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
           <div className="relative w-full h-auto">
             <div className="bg-white rounded-lg overflow-hidden">
               <Image
-                src="/images/image2.svg"
+                src={placeholderImage}
                 alt="Student with notebook"
                 className="object-cover"
                 layout="responsive"
